@@ -46,12 +46,6 @@ function displayMovieDetails(movie) {
     const movieAvailableTicketsElement = document.getElementById('movie-available-tickets');
     movieAvailableTicketsElement.textContent = availableTickets;
   
-    // Enable or disable the Buy Ticket button based on available tickets
-    const buyTicketButton = document.getElementById('buy-ticket-btn');
-    buyTicketButton.disabled = availableTickets === 0;
-  
-    // Add event listener to the Buy Ticket button
-    buyTicketButton.addEventListener('click', () => {
-      buyTicket(movie);
-    });
+   
+}
 
