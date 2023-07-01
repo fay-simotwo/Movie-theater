@@ -88,6 +88,12 @@ h1 {
     margin-bottom: 10px;
   }
 
+  /* Set margin for the movie details paragraphs */
+.movie-details p {
+    margin-bottom: 5px;
+  }
+
+  
 
 
 
