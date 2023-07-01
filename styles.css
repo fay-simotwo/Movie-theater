@@ -78,7 +78,14 @@ h1 {
     height: 300px;
     object-fit: cover;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(5px 5px 5px 10px);
+    border-radius: 3px;
+  }
+
+  /* Set font size and margin for the movie title */
+.movie-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 
 
