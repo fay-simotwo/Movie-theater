@@ -130,6 +130,12 @@ h1 {
 .film.item:hover {
     background-color: #f5f5f5;
   }
+
+  /* Add hover effect on movie list item bullets */
+.film.item:hover:before {
+    background-color: #ff3d78;
+  }
+  
   
 
 
