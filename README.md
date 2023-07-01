@@ -2,12 +2,12 @@
 Welcome to the Movie Ticket Booking project! The Movie Ticket Booking System is a web application that allows users to browse and book movie tickets online. The application provides a user-friendly interface where users can view a list of available movies, their showtimes, and ticket availability. Users can select a movie, view its details such as poster, title, runtime, and available tickets, and proceed to book a ticket if seats are available.
 
 ## Key Features:
-Movie Menu: The application displays a menu of movies, allowing users to browse through the available options.
-Movie Details: Users can click on a movie to view its details, including poster, title, runtime, showtime, and available tickets.
-Ticket Booking: If there are available tickets, users can book a ticket for the selected movie by clicking the "Buy Ticket" button.
-Ticket Availability: The system keeps track of ticket availability and updates it in real-time when a ticket is purchased.
-Sold Out Message: If all tickets for a movie are sold out, a "Sold Out" message is displayed to notify the users.
-Responsive Design: The application is designed to be responsive, ensuring a seamless user experience on different devices and screen sizes.
+- Movie Menu: The application displays a menu of movies, allowing users to browse through the available options.
+- Movie Details: Users can click on a movie to view its details, including poster, title, runtime, showtime, and available tickets.
+- Ticket Booking: If there are available tickets, users can book a ticket for the selected movie by clicking the "Buy Ticket" button.
+- Ticket Availability: The system keeps track of ticket availability and updates it in real-time when a ticket is purchased.
+- Sold Out Message: If all tickets for a movie are sold out, a "Sold Out" message is displayed to notify the users.
+- Responsive Design: The application is designed to be responsive, ensuring a seamless user experience on different devices and screen sizes.
 
 ## Author
 CHEPKOECH FAITH
@@ -30,7 +30,7 @@ CHEPKOECH FAITH
 
 1. Clone the repository:
 
-git clone git@github.com:fay-simotwo/Movie-theater.git
+   git clone git@github.com:fay-simotwo/Movie-theater.git
 
 2. Navigate to the project directory:
 cd Movie-shop
