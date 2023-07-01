@@ -11,7 +11,9 @@ h1 {
     text-align: center;
     margin-top: 30px;
     color: lightcoral;
+    font-weight: 500;
   }
+  
 
   /* Create a container with flex layout and set max width, margin,background color, box shadow, and border radius */
   .container {
@@ -79,7 +81,7 @@ h1 {
     object-fit: cover;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(5px 5px 5px 10px);
-    border-radius: 3px;
+    border-radius: 8px;
   }
 
   /* Set font size and margin for the movie title */
