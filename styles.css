@@ -59,6 +59,12 @@ h1 {
     background-color: lightcoral;
     border-radius: 50%;
   }
+
+  /* Set padding for the main content area */
+.main {
+    flex-grow: 1;
+    padding: 20px;
+  }
   
 
 
