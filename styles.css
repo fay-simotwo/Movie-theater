@@ -1,0 +1,9 @@
+/* Set the font family and background image of the body */
+body{
+    font-family: "Raleway";
+    background-image: url(https://i.pinimg.com/564x/d2/44/1f/d2441f3c0823dc24eec0c5827ac180d7.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
