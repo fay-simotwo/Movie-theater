@@ -69,4 +69,24 @@ function displayMovieDetails(movie) {
 function buyTicket(movie) {
     const { id, tickets_sold, capacity } = movie;
     const availableTickets = capacity - tickets_sold;
+    if (availableTickets > 0) {
+        // Update the tickets_sold count
+        movie.tickets_sold += 1;
+    
+        // Update the availableTickets element on the web page
+        const movieAvailableTicketsElement = document.getElementById('movie-available-tickets');
+        movieAvailableTicketsElement.textContent = availableTickets - 1;
+    
+        // Disable the Buy Ticket button if all tickets are sold out
+        const buyTicketButton = document.getElementById('buy-ticket-btn');
+        buyTicketButton.disabled = availableTickets === 1;
+    
+        // Show or hide the "Sold Out" message
+        const soldOutMessage = document.getElementById('sold-out-message');
+        if (availableTickets === 1) {
+          soldOutMessage.style.display = 'block';
+        } else {
+          soldOutMessage.style.display = 'none';
+        }
+      }
 }
