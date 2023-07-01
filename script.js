@@ -56,6 +56,13 @@ function displayMovieDetails(movie) {
     buyTicket(movie);
   });
   
+   // Show or hide the "Sold Out" message
+   const soldOutMessage = document.getElementById('sold-out-message');
+   if (availableTickets === 0) {
+     soldOutMessage.style.display = 'block';
+   } else {
+     soldOutMessage.style.display = 'none';
+   }
    
 }
 
