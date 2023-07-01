@@ -67,6 +67,11 @@ h1 {
   }
   
 
+/* Center align the movie details section */
+.movie-details {
+    text-align: center;
+  }
+
 
 
 
