@@ -118,6 +118,14 @@ h1 {
     background-color: li;
   }
   
+  /* Set color, font weight, and margin for the sold-out message */
+#sold-out-message {
+    color: lightcoral;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+  }
+  
 
 
 
