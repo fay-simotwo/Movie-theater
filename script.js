@@ -65,4 +65,8 @@ function displayMovieDetails(movie) {
    }
    
 }
-
+// Function to buy a ticket for the selected movie
+function buyTicket(movie) {
+    const { id, tickets_sold, capacity } = movie;
+    const availableTickets = capacity - tickets_sold;
+}
