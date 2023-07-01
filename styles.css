@@ -31,5 +31,13 @@ h1 {
 }
 
 
+/* Remove default styles and padding for the sidebar ul */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+
 
 
