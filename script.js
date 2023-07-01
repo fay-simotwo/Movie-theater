@@ -15,3 +15,17 @@ fetch('db.json')
         displayMovieDetails(films[0]);
       }
 });
+
+// Function to create a movie item in the movie menu
+function createMovieItem(movie) {
+    const { id, title } = movie;
+  
+    const li = document.createElement('li');
+    li.classList.add('film', 'item');
+    li.textContent = title;
+    li.addEventListener('click', () => {
+      displayMovieDetails(movie);
+    });
+  
+    return li;
+  }
