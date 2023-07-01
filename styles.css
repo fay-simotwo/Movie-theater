@@ -125,6 +125,11 @@ h1 {
     margin-top: 10px;
     display: none;
   }
+
+  /* Add hover effect on movie list items */
+.film.item:hover {
+    background-color: #f5f5f5;
+  }
   
 
 
