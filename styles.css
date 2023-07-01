@@ -48,6 +48,19 @@ h1 {
     cursor: pointer;
   }
 
+  /* Create a bullet point for each item in the sidebar */
+.sidebar li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: lightcoral;
+    border-radius: 50%;
+  }
+  
+
 
 
 
