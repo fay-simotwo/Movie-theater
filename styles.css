@@ -72,6 +72,15 @@ h1 {
     text-align: center;
   }
 
+  /* Set dimensions and styling for the movie image */
+.movie-details img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
 
 
 
