@@ -113,6 +113,12 @@ h1 {
     cursor: not-allowed;
   }
 
+  /* Change the background color of the buy ticket button on hover */
+.movie-details button:hover {
+    background-color: li;
+  }
+  
+
 
 
 
