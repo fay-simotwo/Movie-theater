@@ -107,6 +107,14 @@ h1 {
     transition: background-color 0.3s ease;
   }
 
+  /* Disable the buy ticket button when it is disabled */
+.movie-details button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+
 
 
 
