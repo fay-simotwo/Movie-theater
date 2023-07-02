@@ -45,7 +45,7 @@ cd Movie-shop
 
 3. If there are available tickets, you can click the "Buy Ticket" button to purchase tickets for the selected movie. Note that if the tickets are sold out, the "Buy Ticket" button will be disabled and a "Sold Out!" message will be displayed.
 
-## A Screenshot of the project
+## A Screenshot of the Web Page
 ![IMG_20230701_150355](https://github.com/fay-simotwo/Movie-theater/assets/117070967/7da02e71-1b10-4740-bbac-da76a682d783)
 
 ## Contributing
